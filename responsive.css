@@ -1,0 +1,1760 @@
+@media only screen and (max-width:1024px) {
+
+    /* 820 */
+    .hero-contant h1 {
+        font-size: 60px;
+    }
+
+    .hero-contant p {
+        font-size: 20px;
+        /* text-align: start; */
+    }
+
+    .hero-btn-2 {
+        background-color: #3C8A71 !important;
+        padding: 15px 25px !important;
+        color: white !important;
+        border-radius: 30px !important;
+        transition: all linear .3s;
+        font-size: 20px;
+    }
+
+    /* 820 */
+    .Discover-work {
+        display: none;
+    }
+
+    /* 820 */
+    /* .Pioneering-left {
+        height: 50vh !important;
+    } */
+
+    .Top-Innovator p {
+        font-size: 12px !important;
+        color: white;
+    }
+
+    /* new section Pioneering-right */
+    .Pioneering-right h5 {
+        font-size: 16px;
+    }
+
+    .Pioneering-right h2 {
+        font-size: 6.7vw;
+    }
+
+    .Pioneering-right p {
+        font-size: 2.3vw;
+    }
+
+    .Pioneering-right-box p {
+        font-size: 2.2vw;
+    }
+
+    .Top-Innovator h4 {
+        font-size: 30px;
+    }
+
+    /* 820 */
+    .Top-Innovator p {
+        font-size: 16px !important;
+    }
+
+
+    /* Exceptional left */
+    .Exceptional-left h1 {
+        font-size: 6vw;
+    }
+
+    /* 820 */
+    .Exceptional-left p {
+        font-size: 2vw;
+    }
+
+
+
+
+    /* new section Why-you-should */
+    .Why-you-should h2 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Why-you-should p {
+        font-size: 3vw;
+        color: #5F6563;
+    }
+
+    /* box */
+
+    .Why-you-should-box h1 {
+        padding: 3vw 3vw;
+        background-color: #3C8A71;
+        color: #D8FB5A;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    .Why-you-should-box h2 {
+        font-size: 6vw;
+        color: black;
+    }
+
+    /* 820 */
+
+
+
+    .Why-you-should-box p {
+        font-size: 3.5vw;
+    }
+
+
+    /* new section  Comprehensive */
+    .Comprehensive {
+
+        height: 70vh;
+    }
+
+    .Comprehensive h5 {
+        font-size: 2.5vw;
+        margin-top: 100px !important;
+    }
+
+    .Comprehensive h2 {
+        color: white;
+        font-size: 5vw;
+
+    }
+
+    .Comprehensive p {
+        color: white;
+        font-size: 2.1vw;
+    }
+
+    .Comprehensive-box {
+        background-color: #245243;
+        border-radius: 25px;
+        margin-top: 0px !important;
+        border: 7px solid white;
+    }
+
+    .Comprehensive-box img {
+        width: 7vw;
+    }
+
+    .Comprehensive-box h3 {
+        font-size: 6vw;
+    }
+
+    .Comprehensive-box p {
+        font-size: 2.3vw;
+    }
+
+    /* new section Empowering-right */
+
+    .Empowering-right h5 {
+        font-size: 3vw;
+    }
+
+    .Empowering-right h2 {
+        font-size: 4.4vw;
+    }
+
+    .Empowering-right p {
+        font-size: 2.5vw;
+    }
+
+    /* Empowering-boxe */
+    .Empowering-boxe {
+        background-color: #245243;
+        border-radius: 7px;
+        border: 9px solid white;
+        margin-top: 0px !important;
+    }
+
+
+    .Empowering-boxe img {
+        width: 9vw;
+    }
+
+    .Empowering-boxe h2 {
+        color: #C0DF53;
+        font-size: 4.3vw;
+    }
+
+    .Empowering-boxe p {
+        color: #C0DF53;
+        font-size: 3vw;
+    }
+
+    /* new section Green-Energy */
+
+    .Green-Energy-text h5 {
+        font-size: 3.4vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text h2 {
+        font-size: 7vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text p {
+        font-size: 2.6vw;
+        /* color: red; */
+    }
+
+    /* inside text part */
+    .Green-Energy-text-2 {
+        top: 0;
+        left: 0;
+        /* border: 2px solid red; */
+        background-color: white;
+        border-radius: 15px;
+        position: static !important;
+    }
+
+    .Green-Energy-text-2 h6 {
+        /* color: red; */
+        font-size: 2.5vw;
+    }
+
+    .Green-Energy-text-2 h2 {
+        font-size: 4.8vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text-2 h3 {
+        font-size: 2.2vw;
+        /* color: red; */
+    }
+
+
+    /* 820 */
+    .Green-Energy-text-2 p {
+        font-size: 2vw;
+        /* color: rgb(255, 3, 3); */
+    }
+
+    .Green-Energy-text-2 h4 {
+        font-size: 3.7vw;
+        /* color: red; */
+    }
+
+    /* 820 */
+
+    /* new setion Customers */
+
+    /* Customers-left */
+    .Customers-left h5 {
+        font-size: 3vw;
+        margin-top: 100px;
+    }
+
+    .Customers-left h2 {
+
+        font-size: 6.5vw;
+    }
+
+    .Customers-left p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    /* green box content */
+    .Emily-Rodriguez img {
+        width: 28vw;
+        color: white;
+    }
+
+    .Emily-Rodriguez h3 {
+        font-size: 4vw;
+        color: #ccff13;
+    }
+
+    .Emily-Rodriguez h4 {
+
+        font-size: 3.9vw;
+    }
+
+    /* 820 */
+    .Emily-Rodriguez p {
+        font-size: 2.4vw;
+    }
+
+    .Customers-right {
+        background-image: url("images/Customers-right.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .Customers-right a {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    .Customers-right-video-1 iframe {
+        height: 40vh !important;
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+
+    .Customers-right-video-1 i {
+        cursor: pointer;
+        transition: all .3s ease;
+        font-size: 20px;
+    }
+
+    .Customers-right-video-1 i {
+        position: absolute;
+        top: 0;
+        left: 92%;
+    }
+
+    /* new section Let's-Work */
+    .Lets-Work {
+        background-color: #275547;
+        border-radius: 20px;
+        /* height: 30vh; */
+    }
+
+    .Lets-Work h2 {
+        color: #ccff13;
+        font-size: 5vw;
+    }
+
+    .Lets-Work p {
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    .Lets-Work a {
+        padding: 15px 25px !important;
+        font-size: 2.3vw !important;
+
+    }
+
+
+    /* new section footer */
+    /* footer sec line */
+    .footer-sec-left h2 {
+        color: white;
+        font-size: 6vw;
+    }
+
+    .footer-sec-right a {
+        font-size: 2.9vw;
+        width: 250px;
+        height: 250px;
+    }
+
+    /**************************** 1024  new page**********************************************/
+    /* 1024 */
+    .hero-content h1 {
+        font-size: 8.5vw;
+    }
+
+    .hero-content h5 {
+        font-size: 3.5vw;
+    }
+
+    .navbar img {
+        width: 150px;
+    }
+
+    /* new section About-Pioneering-right */
+    .About-Pioneering-right h5 {
+        font-size: 5vw;
+    }
+
+    .About-Pioneering-right h2 {
+        font-size: 6.5vw;
+    }
+
+    /* 1024 */
+    /* Pioneering-left */
+.Pioneering-left p{
+    font-size: 2.7vw;
+    
+}
+
+.Pioneering-left-state h3{
+    font-size: 2vw;
+}
+
+.Pioneering-left-state h5{
+    font-size: 1.5vw;
+}
+
+/* Pioneering-left-state */
+.Pioneering-left-state h3{
+    font-size: 4.7vw;
+}
+
+/* Pioneering-left-state */
+.Pioneering-left-state h6{
+    font-size: 2.3vw;
+}
+
+
+/* new section about-Empowering */
+
+.about-Empowering-right h6{
+    font-size: 4.0vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-Empowering-right h2{
+    font-size: 6.2vw;
+}
+
+.about-Empowering-right p{
+    font-size: 3.3vw;
+}
+
+/* check box content */
+.about-Empowering-right i{
+    font-size: 4.5vw;
+    color: #3C8A71;
+}
+
+.about-Empowering-right h5{
+    font-size: 3vw;
+}
+
+.about-Empowering-right button{
+    padding: 7px 15px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+/* left side */
+/* about-Empowering-left */
+.about-Empowering-left{
+    position: relative;
+    height: 100vh;
+}
+.about-Empowering-left img{
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    width: 97%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* mini box */
+.leading{
+   background-color: #275547;
+   color: white;
+   z-index: 111;
+   border: 10px solid white;
+   position: absolute;
+   bottom: -2%;
+   right: 1%;
+}
+
+
+
+
+/* 768 */
+@media only screen and (max-width:768px) {
+
+    /* 768 */
+    .hero-contant h1 {
+        font-size: 55px;
+    }
+
+    .hero-contant p {
+        font-size: 20px;
+        /* text-align: start; */
+    }
+
+    .hero-btn-2 {
+        background-color: #3C8A71 !important;
+        padding: 10px 20px !important;
+        color: white !important;
+        border-radius: 30px !important;
+        transition: all linear .3s;
+        font-size: 20px;
+    }
+
+    /* 768 */
+    .Discover-work {
+        display: none;
+    }
+
+    /* 768 */
+    /* .Pioneering-left {
+        height: 50vh !important;
+    } */
+
+    .Top-Innovator p {
+        font-size: 12px !important;
+        color: white;
+    }
+
+    /* new section Pioneering-right */
+    .Pioneering-right h5 {
+        font-size: 16px;
+    }
+
+    .Pioneering-right h2 {
+        font-size: 6.7vw;
+    }
+
+    .Pioneering-right p {
+        font-size: 2.3vw;
+    }
+
+    .Pioneering-right-box p {
+        font-size: 2.2vw;
+    }
+
+    .Top-Innovator h4 {
+        font-size: 30px;
+    }
+
+    /* 768 */
+    .Top-Innovator p {
+        font-size: 16px !important;
+    }
+
+
+    /* new section Exceptional */
+
+    /* Exceptional-left */
+
+    .Exceptional-left {
+        position: static !important;
+        height: fit-content;
+        top: 5%;
+    }
+
+    .Exceptional-left h1 {
+        font-size: 6vw;
+        font-weight: 550;
+    }
+
+    .Exceptional-left p {
+        font-size: 2.5vw;
+    }
+
+
+    /*  Exceptional-right */
+
+    .thid-box {
+        background-color: #245243;
+        width: fit-content;
+        position: sticky;
+        /* top: 5%; */
+    }
+
+    .thid-box img {
+        width: 8vw;
+    }
+
+
+
+    /* new section Why-you-should */
+    .Why-you-should h2 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Why-you-should p {
+        font-size: 3vw;
+        color: #5F6563;
+    }
+
+    /* box */
+
+    .Why-you-should-box h1 {
+        padding: 3vw 3vw;
+        background-color: #3C8A71;
+        color: #D8FB5A;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    .Why-you-should-box h2 {
+        font-size: 6vw;
+        color: black;
+    }
+
+    .Why-you-should-box p {
+        font-size: 3.5vw;
+    }
+
+
+    /* new section Empowering-right */
+
+    .Empowering-right h5 {
+        font-size: 3vw;
+    }
+
+    .Empowering-right h2 {
+        font-size: 5.4vw;
+    }
+
+    .Empowering-right p {
+        font-size: 2.7vw;
+    }
+
+    /* Empowering-boxe */
+
+
+    .Empowering-boxe img {
+        width: 13vw;
+    }
+
+    .Empowering-boxe h2 {
+        color: #C0DF53;
+        font-size: 5vw;
+    }
+
+    .Empowering-boxe p {
+        color: #C0DF53;
+        font-size: 3.5vw;
+    }
+
+
+    /* new section Green-Energy */
+
+    .Green-Energy-text h5 {
+        font-size: 3.4vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text h2 {
+        font-size: 7vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text p {
+        font-size: 2.6vw;
+        /* color: red; */
+    }
+
+
+
+    .Green-Energy-text-2 h6 {
+        /* color: red; */
+        font-size: 2.5vw;
+    }
+
+    .Green-Energy-text-2 h2 {
+        font-size: 4.8vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text-2 h3 {
+        font-size: 3vw;
+        /* color: red; */
+    }
+
+
+    /* 768 */
+    .Green-Energy-text-2 p {
+        font-size: 2.5vw;
+        /* color: rgb(255, 3, 3); */
+    }
+
+    .Green-Energy-text-2 h4 {
+        font-size: 4vw;
+        /* color: red; */
+    }
+
+
+
+    /* 768 */
+
+    /* new setion Customers */
+
+    /* Customers-left */
+    .Customers-left h5 {
+        font-size: 3vw;
+        /* color: red !important; */
+    }
+
+    .Customers-left h2 {
+        font-size: 7vw;
+    }
+
+    .Customers-left p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    /* green box content */
+    .Emily-Rodriguez img {
+        width: 28vw;
+        color: white;
+    }
+
+    .Emily-Rodriguez h3 {
+        font-size: 4vw;
+        color: #ccff13;
+    }
+
+    .Emily-Rodriguez h4 {
+
+        font-size: 3.9vw;
+    }
+
+    /* 820 */
+    .Emily-Rodriguez p {
+        font-size: 2.4vw;
+    }
+
+    .Customers-right {
+        background-image: url("images/Customers-right.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .Customers-right a {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    /* new section Let's-Work */
+    .Lets-Work {
+        background-color: #275547;
+        border-radius: 20px;
+        /* height: 30vh; */
+    }
+
+    .Lets-Work h2 {
+        color: #ccff13;
+        font-size: 5vw;
+    }
+
+    .Lets-Work p {
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    .Lets-Work a {
+        padding: 15px 25px !important;
+        font-size: 2.3vw !important;
+
+    }
+
+    /* new section footer */
+    /* footer sec line */
+    .footer-sec-left h2 {
+        color: white;
+        font-size: 6vw;
+    }
+
+    .footer-sec-right a {
+        font-size: 3.5vw;
+        width: 250px;
+        height: 250px;
+    }
+
+    /**************************** 768  new page**********************************************/
+    /* 768 */
+    .hero-content h1 {
+        font-size: 8.5vw;
+    }
+
+    .hero-content h5 {
+        font-size: 3.5vw;
+    }
+
+    .navbar img {
+        width: 120px;
+    }
+
+        /* 768 */
+    /* Pioneering-left */
+.Pioneering-left p{
+    font-size: 2.7vw;
+    
+}
+
+.Pioneering-left-state h3{
+    font-size: 2vw;
+}
+
+.Pioneering-left-state h5{
+    font-size: 1.5vw;
+}
+
+/* Pioneering-left-state */
+.Pioneering-left-state h3{
+    font-size: 4.7vw;
+}
+
+/* Pioneering-left-state */
+.Pioneering-left-state h6{
+    font-size: 2.3vw;
+}
+
+
+/* new section about-Empowering */
+
+.about-Empowering-right h6{
+    font-size: 3.7vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-Empowering-right h2{
+    font-size: 6.2vw;
+}
+
+.about-Empowering-right p{
+    font-size: 3.3vw;
+}
+
+/* check box content */
+.about-Empowering-right i{
+    font-size: 4.5vw;
+    color: #3C8A71;
+}
+
+.about-Empowering-right h5{
+    font-size: 3vw;
+}
+
+.about-Empowering-right button{
+    padding: 7px 15px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+}
+
+
+
+/* 575 */
+@media only screen and (max-width:576px) {
+
+    .hero-contant h1 {
+        font-size: 35px !important;
+    }
+
+    .hero-contant p {
+        font-size: 13px !important;
+        text-align: start;
+    }
+
+    .hero-btn-2 {
+        background-color: #3C8A71 !important;
+        padding: 10px 20px !important;
+        color: white !important;
+        border-radius: 30px !important;
+        transition: all linear .3s;
+        font-size: 20px;
+    }
+
+    /* 575 */
+    .Discover-work {
+        display: none;
+    }
+
+    /* 575 */
+    /* .Pioneering-left {
+        height: 50vh !important;
+    } */
+
+    .Top-Innovator p {
+        font-size: 12px !important;
+        color: white;
+    }
+
+    /* new section Pioneering-right */
+    .Pioneering-right h5 {
+        font-size: 16px;
+    }
+
+    .Pioneering-right h2 {
+        font-size: 6.7vw;
+    }
+
+    .Pioneering-right p {
+        font-size: 2.3vw;
+    }
+
+    .Pioneering-right-box p {
+        font-size: 2.2vw;
+    }
+
+    /* new section Exceptional */
+
+    /* Exceptional-left */
+
+
+
+    .Exceptional-left h1 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Exceptional-left p {
+        font-size: 3vw;
+    }
+
+
+    /*  Exceptional-right */
+
+    .thid-box {
+        background-color: #245243;
+        width: fit-content;
+        position: sticky;
+        /* top: 5%; */
+    }
+
+    .thid-box img {
+        width: 10vw;
+    }
+
+
+    /* new section Why-you-should */
+    .Why-you-should h2 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Why-you-should p {
+        font-size: 3vw;
+        color: #5F6563;
+    }
+
+    /* box */
+
+    .Why-you-should-box h1 {
+        padding: 3vw 3vw;
+        background-color: #3C8A71;
+        color: #D8FB5A;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    .Why-you-should-box h2 {
+        font-size: 5vw;
+        color: black;
+    }
+
+    .Why-you-should-box p {
+        font-size: 3vw;
+    }
+
+    /* 575 */
+
+    /* new section  Comprehensive */
+    .Comprehensive {
+        height: 40vh;
+    }
+
+    .Comprehensive h5 {
+        font-size: 3.2vw;
+        margin-top: 60px !important;
+    }
+
+    .Comprehensive h2 {
+        color: white;
+        font-size: 5vw;
+
+    }
+
+    .Comprehensive p {
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    .Comprehensive-box {
+        background-color: #245243;
+        border-radius: 25px;
+        margin-top: 0px !important;
+        border: 7px solid white;
+    }
+
+    .Comprehensive-box img {
+        width: 10vw;
+    }
+
+    .Comprehensive-box h3 {
+        font-size: 6vw;
+    }
+
+    .Comprehensive-box p {
+        font-size: 2.8vw;
+    }
+
+    /* new section Empowering-right */
+
+    .Empowering-right h5 {
+        font-size: 4vw;
+    }
+
+    .Empowering-right h2 {
+        font-size: 6vw;
+    }
+
+    .Empowering-right p {
+        font-size: 2.6vw;
+    }
+
+    /* Empowering-boxe */
+
+
+    .Empowering-boxe img {
+        width: 18vw;
+    }
+
+    .Empowering-boxe h2 {
+        color: #C0DF53;
+        font-size: 7vw;
+    }
+
+    .Empowering-boxe p {
+        color: #C0DF53;
+        font-size: 6vw;
+    }
+
+    /* new section Green-Energy */
+
+    .Green-Energy-text h5 {
+        font-size: 3.4vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text h2 {
+        font-size: 7vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text p {
+        font-size: 3.5vw;
+        /* color: red; */
+    }
+
+    /* inside text part */
+    .Green-Energy-text-2 {
+        top: 0;
+        left: 0;
+        /* border: 2px solid red; */
+        background-color: white;
+        border-radius: 15px;
+        position: static !important;
+    }
+
+    .Green-Energy-text-2 h6 {
+        /* color: red; */
+        font-size: 2.5vw;
+    }
+
+    .Green-Energy-text-2 h2 {
+        font-size: 4.8vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text-2 h3 {
+        font-size: 3vw;
+        /* color: red; */
+    }
+
+
+    /* 575 */
+    .Green-Energy-text-2 p {
+        font-size: 3vw;
+        /* color: rgb(255, 3, 3); */
+    }
+
+    .Green-Energy-text-2 h4 {
+        font-size: 4vw;
+        /* color: red; */
+    }
+
+
+    /* 575 */
+    /* new setion Customers */
+
+    /* Customers-left */
+    .Customers-left h5 {
+        margin-top: 0px;
+        font-size: 4vw;
+        /* color: red !important; */
+    }
+
+    .Customers-left h2 {
+        font-size: 7vw;
+    }
+
+    .Customers-left p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    /* green box content */
+    .Emily-Rodriguez img {
+        width: 34vw;
+        color: white;
+    }
+
+    .Emily-Rodriguez h3 {
+        font-size: 4vw;
+        color: #ccff13;
+    }
+
+    .Emily-Rodriguez h4 {
+
+        font-size: 3.9vw;
+    }
+
+    /* 575 */
+    .Emily-Rodriguez p {
+        font-size: 2.4vw;
+    }
+
+    .Customers-right {
+        background-image: url("images/Customers-right.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .Customers-right a {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    /* new part video */
+
+    .Customers-right-video-1 iframe {
+        height: 40vh !important;
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+
+    .Customers-right-video-1 i {
+        cursor: pointer;
+        transition: all .3s ease;
+        font-size: 20px;
+    }
+
+    .Customers-right-video-1 i {
+        position: absolute;
+        top: 0;
+        left: 92%;
+    }
+
+    /* new section Let's-Work */
+    .Lets-Work {
+        background-color: #275547;
+        border-radius: 20px;
+        /* height: 30vh; */
+    }
+
+    .Lets-Work h2 {
+        color: #ccff13;
+        font-size: 5vw;
+    }
+
+    .Lets-Work p {
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    /* 575 */
+    .Lets-Work a {
+        padding: 15px 25px !important;
+        font-size: 2.8vw !important;
+    }
+
+    /* new section footer */
+
+    .footer-logo {
+        background-color: #3C8A71;
+        border: 10px solid white;
+        border-radius: 0 0 20px 20px;
+        /* width: 120px;
+    height: 120px; */
+
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    /* footer sec line */
+    .footer-sec-left h2 {
+        color: white;
+        font-size: 6vw;
+    }
+
+    .footer-sec-right a {
+        font-size: 3.5vw;
+        width: 180px;
+        height: 180px;
+    }
+
+
+    /**************************** 575  new page**********************************************/
+    /* 575 */
+    .hero-content h1 {
+        font-size: 8.5vw;
+    }
+
+    .hero-content h5 {
+        font-size: 3.5vw;
+    }
+
+    .navbar img {
+        width: 120px;
+    }
+
+            /* 575 */
+    /* Pioneering-left */
+.Pioneering-left p{
+    font-size: 2.7vw;
+    
+}
+
+.Pioneering-left-state h3{
+    font-size: 2vw;
+}
+
+.Pioneering-left-state h5{
+    font-size: 1.5vw;
+}
+
+/* Pioneering-left-state */
+.Pioneering-left-state h3{
+    font-size: 4.7vw;
+}
+
+/* new section about-Empowering */
+
+.about-Empowering-right h6{
+    font-size: 4.0vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-Empowering-right h2{
+    font-size: 6.2vw;
+}
+
+.about-Empowering-right p{
+    font-size: 3.3vw;
+}
+
+/* check box content */
+.about-Empowering-right i{
+    font-size: 4.5vw;
+    color: #3C8A71;
+}
+
+.about-Empowering-right h5{
+    font-size: 3vw;
+}
+
+.about-Empowering-right button{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+}
+
+
+
+
+/* 430 */
+@media only screen and (max-width:431px) {
+
+    .hero-contant h1 {
+        font-size: 6.5vw !important;
+        /* color: red !important; */
+    }
+
+    .hero-contant p {
+        font-size: 2.77vw !important;
+    }
+
+    .Discover-work {
+        display: none;
+    }
+
+    .Discover-work-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* padding: 5px; */
+        border-radius: 20px;
+    }
+
+    .hero-btn-2 {
+        background-color: #3C8A71 !important;
+        padding: 10px 30px !important;
+        color: white !important;
+        border-radius: 30px !important;
+        transition: all linear .3s;
+        font-size: 20px;
+    }
+
+    .Discover-work-2 p {
+        font-size: 5px;
+    }
+
+    /* new section Pioneering-right */
+    .Pioneering-right h5 {
+        font-size: 16px;
+    }
+
+    .Pioneering-right h2 {
+        font-size: 6.7vw;
+    }
+
+    .Pioneering-right p {
+        font-size: 3vw;
+    }
+
+    .Pioneering-right-box p {
+        font-size: 2vw;
+    }
+
+    /* .Pioneering-left {
+        height: 50vh;
+    } */
+
+    /* 430 */
+    .Top-Innovator p {
+        font-size: 12px;
+        color: white;
+    }
+
+    .Top-Innovator h4 {
+        font-size: 20px;
+        /* color: red; */
+    }
+
+    /* 430 */
+    .Top-Innovator p {
+        font-size: 12px !important;
+    }
+
+
+    .Exceptional-left {
+        position: static !important;
+        height: fit-content;
+        /* top: 5%; */
+    }
+
+    /* new section Exceptional */
+
+    /* Exceptional-left */
+
+
+
+    .Exceptional-left h1 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Exceptional-left p {
+        font-size: 2.5vw;
+    }
+
+
+    /*  Exceptional-right */
+
+    .thid-box {
+        background-color: #245243;
+        width: fit-content;
+        position: sticky;
+        /* top: 5%; */
+    }
+
+    .thid-box img {
+        width: 15vw;
+    }
+
+    .thid-box h3 {
+        color: #D8FB5A;
+        font-size: 7vw;
+    }
+
+    .thid-box p {
+        color: #6DAE98;
+        font-size: 3vw;
+    }
+
+
+    /* new section Why-you-should */
+    .Why-you-should h2 {
+        font-size: 8vw;
+        font-weight: 550;
+    }
+
+    .Why-you-should p {
+        font-size: 3vw;
+        color: #5F6563;
+    }
+
+    /* box */
+
+    .Why-you-should-box h1 {
+        padding: 3vw 3vw;
+        background-color: #3C8A71;
+        color: #D8FB5A;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    .Why-you-should-box h2 {
+        font-size: 5vw;
+        color: black;
+    }
+
+    .Why-you-should-box p {
+        font-size: 2.7vw;
+    }
+
+
+    /* 430 */
+    /* new section  Comprehensive */
+    .Comprehensive {
+        height: 40vh;
+    }
+
+    .Comprehensive h5 {
+        font-size: 3.3vw;
+        margin-top: 40px !important;
+    }
+
+    .Comprehensive h2 {
+        color: white;
+        font-size: 6vw;
+
+    }
+
+    .Comprehensive p {
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    /* box */
+    .Comprehensive-box {
+        background-color: #245243;
+        border-radius: 25px;
+        margin-top: 0px !important;
+        border: 7px solid white;
+    }
+
+    .Comprehensive-box img {
+        width: 15vw;
+    }
+
+    .Comprehensive-box h3 {
+        font-size: 7vw;
+    }
+
+    /* 430 */
+    .Comprehensive-box p {
+        font-size: 4vw;
+    }
+
+
+    /* new section Empowering-right */
+
+    .Empowering-right h5 {
+        font-size: 3vw;
+    }
+
+    .Empowering-right h2 {
+        font-size: 6vw;
+    }
+
+    .Empowering-right p {
+        font-size: 4vw;
+    }
+
+    /* Empowering-boxe */
+
+
+    .Empowering-boxe img {
+        width: 23vw;
+    }
+
+    .Empowering-boxe h2 {
+        color: #C0DF53;
+        font-size: 8.2vw;
+    }
+
+    .Empowering-boxe p {
+        color: #C0DF53;
+        font-size: 6vw;
+    }
+
+    /* new section Green-Energy */
+
+    .Green-Energy-text h5 {
+        font-size: 3.4vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text h2 {
+        font-size: 7vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text p {
+        font-size: 3.5vw;
+        /* color: red; */
+    }
+
+    /* inside text part */
+    .Green-Energy-text-2 {
+        top: 0;
+        left: 0;
+        /* border: 2px solid red; */
+        background-color: white;
+        border-radius: 15px;
+        position: static !important;
+    }
+
+    .Green-Energy-text-2 h6 {
+        /* color: red; */
+        font-size: 3.7vw;
+    }
+
+    .Green-Energy-text-2 h2 {
+        font-size: 6.5vw;
+        /* color: red; */
+    }
+
+    .Green-Energy-text-2 h3 {
+        font-size: 3.3vw;
+        /* color: red; */
+    }
+
+
+    /* 430 */
+    .Green-Energy-text-2 p {
+        font-size: 3vw;
+        /* color: rgb(255, 3, 3); */
+    }
+
+    .Green-Energy-text-2 h4 {
+        font-size: 4vw;
+        /* color: red; */
+    }
+
+    /* 575 */
+    /* new setion Customers */
+
+    /* Customers-left */
+    .Customers-left h5 {
+        margin-top: 0px;
+        font-size: 4vw;
+        /* color: red !important; */
+    }
+
+    .Customers-left h2 {
+        font-size: 7vw;
+    }
+
+    .Customers-left p {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    /* green box content */
+    .Emily-Rodriguez img {
+        width: 40vw;
+        color: white;
+    }
+
+    .Emily-Rodriguez h3 {
+        font-size: 4.5vw;
+        color: #ccff13;
+    }
+
+    .Emily-Rodriguez h4 {
+
+        font-size: 4.2vw;
+    }
+
+    /* 575 */
+    .Emily-Rodriguez p {
+        font-size: 3.2vw;
+    }
+
+    .Customers-right {
+        background-image: url("images/Customers-right.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .Customers-right a {
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+
+
+    /* new part video */
+
+    .Customers-right-video-1 iframe {
+        height: 40vh !important;
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+
+    .Customers-right-video-1 i {
+        cursor: pointer;
+        transition: all .3s ease;
+        font-size: 20px;
+    }
+
+    .Customers-right-video-1 i {
+        position: absolute;
+        top: 0;
+        left: 85%;
+    }
+
+    /* new section Let's-Work */
+    .Lets-Work {
+        background-color: #275547;
+        border-radius: 20px;
+        /* height: 30vh; */
+    }
+
+    .Lets-Work h2 {
+        color: #ccff13;
+        font-size: 6vw;
+    }
+
+    .Lets-Work p {
+        color: white;
+        font-size: 3.5vw;
+    }
+
+    .Lets-Work a {
+        padding: 10px 20px !important;
+        font-size: 4vw !important;
+    }
+
+
+    /* new section footer */
+
+    .footer-logo {
+        background-color: #3C8A71;
+        border: 10px solid white;
+        border-radius: 0 0 20px 20px;
+        width: 200px;
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    /* footer sec line */
+    .footer-sec-left h2 {
+        color: white;
+        font-size: 6vw;
+    }
+
+    .footer-sec-right a {
+        font-size: 4vw;
+        width: 150px;
+        height: 150px;
+    }
+
+    /**************************** 430  new page**********************************************/
+    /* 430 */
+    .hero-content h1 {
+        font-size: 12vw;
+    }
+
+    .hero-content h5 {
+        font-size: 4.5vw;
+        margin-bottom: 50px !important;
+
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    /* 430 */
+    /* Pioneering-left */
+    .Pioneering-left p{
+        font-size: 5vw;
+        
+    }
+    
+
+    
+    /* Pioneering-left-state */
+    .Pioneering-left-state h3{
+        font-size: 7vw;
+    }
+    
+    /* Pioneering-left-state */
+    .Pioneering-left-state h6{
+        font-size: 4vw;
+    }
+
+    /* new section about-Empowering */
+
+.about-Empowering-right h6{
+    font-size: 4.0vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-Empowering-right h2{
+    font-size: 6.2vw;
+}
+
+.about-Empowering-right p{
+    font-size: 4vw;
+}
+
+/* check box content */
+.about-Empowering-right i{
+    font-size: 6vw;
+    color: #3C8A71;
+}
+
+.about-Empowering-right h5{
+    font-size: 3.6vw;
+}
+
+.about-Empowering-right button{
+    padding: 7px 15px;
+    font-size: 20px;
+}
+
+} 
+
+
+}

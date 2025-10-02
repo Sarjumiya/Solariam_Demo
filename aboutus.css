@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.hero{
+    background-color: #275547 !important;
+    border-radius: 20px;
+    background-image: url("images/hero-about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.345);
+}
+
+.navbar img{
+    width: 200px;
+}
+
+
+
+.navbar-nav{
+    background-color: rgba(255, 255, 255, 0.208);
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+}
+
+.nav-item a{
+    /* font-size: 1.2vw; */
+    font-family: Arial, Helvetica, sans-serif;   
+    font-weight: 400;
+    border-radius: 30px;
+    transition: all .3s ease;
+}
+
+.nav-item a:hover{
+    background-color: white;
+    border-radius: 30px;
+    color: #3C8A7E;
+}
+
+
+.hero-btn {
+    background-color: #3C8A71 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    border-radius: 30px !important;
+    transition: all linear .3s;
+}
+
+.hero-btn:hover {
+    background-color: #275547 !important;
+}
+
+.hero-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 3.5vw;
+    color: #D8FB5A;
+    position: relative;
+    z-index: 11;
+}
+
+.hero-content h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px !important;
+    position: relative;
+    z-index: 11;
+}
+
+
+/* new section About-Pioneering-right */
+.About-Pioneering-right h5{
+    font-weight: 550;
+    font-size: 1.7vw;
+}
+
+.About-Pioneering-right h2{
+    font-size: 3.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Pioneering-left */
+.Pioneering-left p{
+    font-size: 1.3vw;
+    
+}
+
+.Pioneering-left-state h3{
+    font-size: 2vw;
+}
+
+.Pioneering-left-state h5{
+    font-size: 1.5vw;
+}
+
+/* new section #F7F9F8 about-Empowering */
+.about-Empowering{
+    background-color: #F7F9F8 ;
+}
+
+.about-Empowering-right h6{
+    font-size: 1.2vw;
+}
+
+.about-Empowering-right h2{
+    font-size: 2.6vw;
+}
+
+.about-Empowering-right p{
+    font-size: 1.2vw;
+}
+
+/* check box content */
+.about-Empowering-right i{
+    font-size: 1.5vw;
+    color: #3C8A71;
+}
+
+.about-Empowering-right button{
+    padding: 5px 10px;
+    background-color: #3C8A71 !important;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* left side */
+/* about-Empowering-left */
+.about-Empowering-left{
+    position: relative;
+}
+.about-Empowering-left img{
+    position: absolute;
+    top: -250px;
+    left: 1%;
+    width: 97%;
+    height: 130vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* mini box */
+.leading{
+   background-color: #275547;
+   color: white;
+   z-index: 111;
+   border: 10px solid white;
+   position: absolute;
+   bottom: -2%;
+   right: 1%;
+}

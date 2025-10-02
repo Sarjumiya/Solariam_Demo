@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home-solarian</title>
+
+  <!-- remix icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Libertinus+Mono&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Underdog&display=swap"
+    rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- responsive  -->
+  <link rel="stylesheet" href="responsive.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- hero section -->
+  <div class="container-fluid">
+    <div class="row p-2">
+      <div class="col-12 hero px-0 overflow-hidden position-relative">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade px-0 position-absolute w-100"
+          data-bs-ride="carousel" style="height: 100% !important;">
+          <div style="height: 100%; " class="carousel-inner px-0">
+            <div style="height: 100%;" class="carousel-item active px-0">
+              <img style="height: 100% !important;object-fit: cover;" src="images/hero-1.jpg" class="d-block w-100"
+                alt="...">
+            </div>
+            <div style="height: 100%;" class="carousel-item">
+              <img style="height: 100% !important;object-fit: cover;" src="images/hero-2.jpg" class="d-block w-100"
+                alt="...">
+            </div>
+            <div style="height: 100%;" class="carousel-item">
+              <img style="height: 100% !important;object-fit: cover;" src="images/hero-3.jpg" class="d-block w-100"
+                alt="...">
+            </div>
+            <div style="height: 100%;" class="carousel-item">
+              <img style="height: 100% !important;object-fit: cover;" src="images/hero-4.jpg" class="d-block w-100"
+                alt="...">
+            </div>
+          </div>
+
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-xl nav-dark px-lg-4 pt-4 position-relative z-5" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="hero-logo" src="images/hero-logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body ">
+                <ul class="navbar-nav justify-content-end mx-auto px-3">
+                  <li class="nav-item">
+                    <a class="nav-link active ps-xl-0 ps-3 " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-xl-0 ps-3" href="aboutUs.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-xl-0 ps-3 " href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Solution
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Solution</a></li>
+                      <li><a class="dropdown-item" href="#">Solution Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-xl-0 ps-3" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Solution</a></li>
+                      <li><a class="dropdown-item" href="#">Solution Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-xl-0 ps-3" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Solution</a></li>
+                      <li><a class="dropdown-item" href="#">Solution Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ps-xl-0 ps-3" aria-current="page" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex " role="search">
+                  <button id="hero-btn" class=" btn hero-btn fw-bold mt-xl-0 mt-3">Get In Touch</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div class="col-12 w-100  mt-5 hero-contant pb-lg-5 mb-5">
+
+
+            <h1 class="text-white  ps-5">Powering the Future</h1>
+            <h1 class="text-white ps-5 ">with Renewable Energy</h1>
+
+            <p class="text-white ps-5 ">At Solarion, we are committed to driving a sustainable tomorrow by
+              harnessing the limitless potential of renewable energy. With innovative <br> solar solutions, we empower
+              communities and businesses to embrace clean, reliable, and future-ready energy sources.</p>
+            <button class="btn hero-btn-2 ms-5 mt-2">Explore Solution <i style="color: gold;" class="ri-flashlight-fill"></i></button>
+
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-12 d-flex justify-content-lg-end flex-wrap flex-lg-nowarp align-items-center">
+            <div class="Discover-work">
+              <div class="Discover-work-1">
+                <img src="images/Discover-work.webp" alt="">
+              </div>
+              <div class="Discover-work-2 ">
+                <div class="Discover-work-2-top d-flex justify-content-">
+                  <h5 class="fw-bold ps-lg-5">Discover Our <br> Recent Works</h5>
+                  <i class="ri-arrow-right-up-line"></i>
+                </div>
+                <p class="ps-5">Explore our latest innovative and impactful project now!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- new section Pioneering -->
+  <div class="container-fluid Pioneering mt-5  mb-5">
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Pioneering left -->
+        <div class="col-xl-5   Pioneering-left me-5 rounded-4 position-relative ">
+          <!-- Top Innovator div -->
+          <div class="row">
+            <div
+              class="col-md-6 Top-Innovator position-absolute  d-flex flex-column align-items-center justify-content-center p-3">
+              <i class="ri-medal-line"></i>
+              <h4>Top Innovator</h4>
+              <h4>Award</h4>
+              <p class="mb-0 text-center">Recognized for</p>
+              <p class="mb-0 text-center">advancing eco-friendly</p>
+              <p class="mb-0 text-center">energy solutions globally</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Pioneering right -->
+        <div class="col-xl-6 Pioneering-right align-items-xl-start align-items-center text-xl-start text-center pb-3">
+          <h5 class="ps-0 mt-5 "> WHO WE ARE</h5>
+          <h2 class="ps-0 m-0 fw-bold">Pioneering Renewable</h2>
+          <h2 class="ps-0 m-0 fw-bold">Energy for a Better</h2>
+          <h2 class="ps-0 m-0 fw-bold mb-3">Tomorrow</h2>
+
+          <p class="ps-0 mb-xl-3">At <span class="fw-bold">Solarion,</span> we are dedicated to harnessing the power of
+            the sun to create a sustainable future. Our mission is to provide innovative and efficient renewable energy
+            solutions that empower communities to reduce their carbon footprint.</p>
+          <p class="ps-0 ">With a focus on affordability and reliability, Solarion delivers cutting-edge solar energy
+            systems tailored to your needs. Join us in transforming energy consumption and protecting the planet for
+            generations to come.</p>
+          <div class="row Pioneering-right-box">
+            <div class="col-lg-3 d-flex flex-column">
+              <h1 class="mb-0 ">10+</h1>
+              <p>Years of Expertise</p>
+            </div>
+
+            <div class="col-lg-3 d-flex flex-column">
+              <h1 class="mb-0 ">5,000+</h1>
+              <p>
+                Happy Clients</p>
+            </div>
+
+            <div class="col-lg-3 d-flex flex-column ">
+              <h1 class="mb-0 ">25MW</h1>
+              <p>Solar Power</p>
+            </div>
+
+            <div class="col-lg-3 d-flex flex-column mb-3">
+              <h1 class="mb-0 ">3,000+ </h1>
+              <p>Projects Completed</p>
+            </div>
+
+          </div>
+          <a class="mb-5" href="#">Find Out About Us <i style="color: gold;" class="ri-flashlight-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- new section Exceptional -->
+  <div class="container-fluid px-3 Exceptional ">
+    <div class="row">
+
+      <!-- Exceptional left -->
+
+      <div class="col-lg-6 Exceptional-left py-5 text-lg-start text-center">
+        <h5 class="ps-lg-5 mt-5 "><i style="color: gold;" class="ri-flashlight-fill"></i> WHAT WE DO</h5>
+        <h1 class="ps-lg-5">Exceptional Solarion</h1>
+        <h1 class="ps-lg-5">Services Delivered</h1>
+        <p class="ps-lg-5">At Solarion, we offer cutting-edge solutions in solar and green <br> renewable energy to
+          power your world sustainably. Our services are <br> tailored to meet your energy needs with innovation and
+          reliability.</p>
+        <a class="ms-lg-5 mt-2 d-inline-block" href="#">See All Services</a>
+      </div>
+
+      <!-- Exceptional right -->
+
+      <div class="col-lg-6 Exceptional-right d-flex flex-column align-items-lg-start align-items-center  pt-5">
+        <!-- 1 -->
+        <div class="thid-box p-5 border mt-3 d-flex flex-column align-items-start">
+          <img class="mb-5" src="images/Exceptional-right-1.png" alt="">
+          <h3 class="fw-bold mt-3">Residential Solar Panel Installation</h3>
+          <p>Empower your business with Solarion’s innovative commercial solar energy <br> systems, built to drive
+            sustainability and cost-efficiency for enterprises.</p>
+          <a class="d-flex " href="#">Learn More</a>
+        </div>
+
+        <!-- 2 -->
+        <div class="thid-box p-5 border d-flex flex-column align-items-start">
+          <img class="mb-5" src="images/Exceptional-right-2.png" alt="">
+          <h3 class="fw-bold mt-3">Commercial Solar Energy Solutions</h3>
+          <p>Empower your business with Solarion’s innovative commercial solar energy <br> systems, built to drive
+            sustainability and cost-efficiency for enterprises.</p>
+          <a class="d-flex " href="#">Learn More</a>
+        </div>
+
+        <!-- 3 -->
+        <div class="thid-box p-5 border d-flex flex-column align-items-start">
+          <img class="mb-5" src="images/Exceptional-right-3.png" alt="">
+          <h3 class="fw-bold mt-3">Energy Storage Systems</h3>
+          <p>Store the power of the sun for use anytime with Solarion’s advanced energy <br> storage solutions, ensuring
+            uninterrupted energy for your home or business.</p>
+          <a class="d-flex " href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- new section Why you should -->
+  <div class="container-fluid Why-you-should mt-5 mb-5">
+
+    <!-- Why-you-should top-text -->
+    <div class="row my-5 text-xl-start text-center">
+      <div class="col-xl-6 mt-5 mb-3">
+        <h2 class="ps-xl-5 ">Why you should <br> work with us</h2>
+      </div>
+      <div class="col-xl-6 mt-xl-5 mb-xl-3">
+        <p>At Solarion, we are dedicated to delivering sustainable and innovative <br> green energy solutions that
+          empower your journey toward a cleaner <br> future.</p>
+      </div>
+    </div>
+
+    <div class="row mx-5 gap-xl-0 gap-4">
+
+
+      <!-- 1 -->
+      <div class="col-xl-4 ">
+        <div class="w100 Why-you-should-box  p-3 d-flex flex-column align-items-start">
+          <h1>01</h1>
+          <h2 class="mt-2">Expertise You Can Trust</h2>
+          <p class="mt-2 mb-0">Backed by years of experience in renewable energy, <br> we provide reliable and efficient
+            solar solutions <br> tailored to your needs.</p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-xl-4 ">
+        <div class="w100 Why-you-should-box  p-3 d-flex flex-column align-items-start">
+          <h1>02</h1>
+          <h2 class="mt-2">Innovative Technology</h2>
+          <p class="mt-2 mb-0">We use cutting-edge technology to maximize <br> energy output while minimizing your
+            environmental<br>footprint.</p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-xl-4 ">
+        <div class="w100 Why-you-should-box  p-3 d-flex flex-column align-items-start">
+          <h1>03</h1>
+          <h2 class="mt-2">Commitment to Sustainability</h2>
+          <p class="mt-2 mb-0">Our mission is to help you transition to clean <br> energy,saving costs and protecting
+            the planet for future</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="work-with-us-slider mx-5 mt-5">
+      <div class="row d-flex flex-nowrap overflow-hidden">
+
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-1.png" alt="">
+        </div>
+
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-2.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-3.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-4.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-5.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-6.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-7.png" alt="">
+        </div>
+
+        <!-- blue print -->
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-1.png" alt="">
+        </div>
+
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-2.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-3.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-4.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-5.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-6.png" alt="">
+        </div>
+        <div class="col-xl-3 work-with-us-slid ">
+          <img class="img-fluid w-100" src="images/Why-you-should-box-7.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- new section Comprehensive -->
+  <div class="container-fluid  p-4">
+    <div class="row  Comprehensive  d-flex justify-content-start align-items-center flex-column">
+      <h5 class="ps-lg-5 mt-5 text-center fw-bold"><i style="color: gold;" class="ri-flashlight-fill"></i>
+        SOLUTIONS</h5>
+      <h2 class="text-center fw-bold">Comprehensive Solar Solutions <br> Tailored to Your Needs</h2>
+      <p class="text-center">From design to installation and maintenance, we offer end-to-end solar energy services that
+        guarantee <br> maximum efficiency and long-term savings.</p>
+    </div>
+  </div>
+
+  <!-- for Comprehensive boxes -->
+  <div class="container-fluid ">
+    <div class="row mx-5">
+
+      <!-- 1 -->
+      <div class="col-xl-3 Comprehensive-box d-flex flex-column justify-content-center align-items-center p-3 gap-3">
+        <img class="img-fluid mt-3" src="images/Comprehensive-box-1.png" alt="">
+        <h3 class="text-center  fw-bold" style="color: #D9FB5A;">Residential Solar <br> Panels</h3>
+        <p class="text-center text-white">Efficient solar systems designed to <br> power homes and reduce energy <br>
+          costs sustainably.</p>
+        <div class="w-100 d-flex align-items-center justify-content-center">
+          <h6 class="text-white fw-bold">Learn More <i class="ri-add-line"></i></h6>
+        </div>
+      </div>
+
+
+      <!-- 2 -->
+      <div class="col-xl-3 Comprehensive-box d-flex flex-column justify-content-center align-items-center p-3 gap-3">
+        <img class="img-fluid mt-3" src="images/Comprehensive-box-2.png" alt="">
+        <h3 class="text-center  fw-bold" style="color: #D9FB5A;">Commercial Solar <br> Solutions</h3>
+        <p class="text-center text-white">Tailored solar installations boosting <br> energy efficiency for businesses of
+          <br> all sizes.
+        </p>
+        <div class="w-100 d-flex align-items-center justify-content-center">
+          <h6 class="text-white fw-bold">Learn More <i class="ri-add-line"></i></h6>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-xl-3 Comprehensive-box d-flex flex-column justify-content-center align-items-center p-3 gap-3">
+        <img class="img-fluid mt-3" src="images/Comprehensive-box-3.png" alt="">
+        <h3 class="text-center  fw-bold" style="color: #D9FB5A;">Battery Storage <br> Systems</h3>
+        <p class="text-center text-white">Advanced storage solutions to <br> optimize energy use and ensure <br> backup
+          during outages.</p>
+        <div class="w-100 d-flex align-items-center justify-content-center">
+          <h6 class="text-white fw-bold">Learn More <i class="ri-add-line"></i></h6>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-xl-3 Comprehensive-box d-flex flex-column justify-content-center align-items-center p-3 gap-3">
+        <img class="img-fluid mt-3" src="images/Comprehensive-box-4.png" alt="">
+        <h3 class="text-center  fw-bold" style="color: #D9FB5A;">Energy Audits and <br> Consulting</h3>
+        <p class="text-center text-white">Expert energy evaluations and <br> tailored strategies for maximizing <br>
+          energy efficiency.</p>
+        <div class="w-100 d-flex align-items-center justify-content-center">
+          <h6 class="text-white fw-bold">Learn More <i class="ri-add-line"></i></h6>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- new section Empowering -->
+  <div class="container-fluid Empowering mt-5">
+    <div class="row p-3">
+
+      <!-- Empowering left -->
+      <div class="col-xl-6 Empowering-left">
+        <img src="images/Empowering-left.jpg" alt="">
+      </div>
+
+      <!-- Empowering right -->
+      <div class="col-xl-6 Empowering-right d-flex flex-column justify-content-start align-items-start">
+        <h5 class="ps-lg-5  text-xl-start text-center w-100 fw-bold mt-xl-0 mt-5"><i style="color: #3C8B70"
+            class="ri-flashlight-fill"></i> BENEFITS</h5>
+        <h2 class="ps-lg-5 fw-bold text-xl-start text-center w-100">Empowering Sustainable <br> Living with Solarion's
+          <br> Renewable Energy Solutions
+        </h2>
+        <p class="ps-md-5 text-xl-start text-center w-100">Discover how Solarion transforms homes and businesses with
+          innovative, <br class="d-md-flex d-none"> green energy systems designed for a brighter, sustainable future</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Empowering boxes -->
+  <div class="container-fluid   Empowering-boxes ">
+    <div class="row d-flex  justify-content-xl-end mx-5 justify-content-center align-items-center me-5 ">
+
+      <!-- 1 -->
+      <div class="col-xl-2 col-lg-6 col-md-6 Empowering-boxe ">
+        <div class="w-100 d-flex justify-content-xl-end justify-content-center p-4">
+          <img class="pe-3 pt-1" src="images/Comprehensive-box-1.png" alt="">
+        </div>
+        <h2 class="ps-xl-2 fw-bold mt-4 text-xl-start text-center">Cost Savings</h2>
+        <p class="ps-xl-2 text-white text-xl-start text-center">Lower your electricity <br class="d-xl-flex d-none"> with renewable energy.
+        </p>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-xl-2 col-lg-6 col-md-6 Empowering-boxe">
+        <div class="w-100 d-flex justify-content-xl-end justify-content-center p-4">
+          <img class="pe-3 pt-1" src="images/Comprehensive-box-2.png" alt="">
+        </div>
+        <h2 class="ps-xl-2 fw-bold mt-4 text-xl-start text-center">Cost Savings</h2>
+        <p class="ps-xl-2 text-white text-xl-start text-center">Lower your electricity  <br class="d-xl-flex d-none"> with renewable energy.
+        </p>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-xl-2 col-lg-6 col-md-6 Empowering-boxe">
+        <div class="w-100 d-flex justify-content-xl-end justify-content-center p-4">
+          <img class="pe-3 pt-1" src="images/Comprehensive-box-3.png" alt="">
+        </div>
+        <h2 class="ps-xl-2 fw-bold mt-4 text-xl-start text-center">Cost Savings</h2>
+        <p class="ps-xl-2 text-white text-xl-start text-center">Lower your electricity  <br class="d-xl-flex d-none"> with renewable energy.
+        </p>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-xl-2 col-lg-6 col-md-6 Empowering-boxe">
+        <div class="w-100 d-flex justify-content-xl-end justify-content-center p-4">
+          <img class="pe-3 pt-1" src="images/Comprehensive-box-4.png" alt="">
+        </div>
+        <h2 class="ps-xl-2 fw-bold mt-4 text-xl-start text-center">Cost Savings</h2>
+        <p class="ps-xl-2 text-white text-xl-start text-center">Lower your electricity  <br class="d-xl-flex d-none"> with renewable energy.
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- new section Green-Energy -->
+  <div class="container-fluid Green-Energy-main mt-5 p-4 ">
+
+    <!-- Green-Energy text -->
+    <div class="row mt-5 Green-Energy-text">
+      <!-- Green-Energy left-->
+      <div class="col-xl-6 d-flex flex-column mt-5">
+        <h5 class="ps-lg-5  text-xl-start text-center w-100  mt-xl-0 mt-5"><i style="color: #3C8B70"
+            class="ri-flashlight-fill"></i>CASE STUDIES</h5>
+        <h2 class="ps-lg-5  text-xl-start text-center fw-bold mb-xl-5 pb-xl-5">Green Energy Solutions <br>
+          That Empower Lives</h2>
+      </div>
+
+      <!-- Green-Energy right-->
+      <div class="col-xl-6 mt-xl-5">
+        <p class="pt-5 text-xl-start text-center">Discover how Solarion revolutionizes green energy solutions
+          with cutting-edge <br class="d-xl-flex d-none"> solar technology. These projects highlight our commitment to
+          sustainability, <br class="d-xl-flex d-none">
+          cost-effectiveness, and customer satisfaction in the renewable energy sector.</p>
+      </div>
+    </div>
+
+    <!-- box 1 -->
+    <div class="row Green-Energy-box-1 g-3">
+      <div class="position-relative">
+
+        <!-- box image part -->
+        <div class="col-xl-8 Green-Energy-image">
+          <img class="img-fluid Green-Energy-image-1" src="images/Green-Energy-1.jpg" alt="">
+        </div>
+
+        <!-- box text part -->
+        <div
+          class="col-xl-6  Green-Energy-text-2 z-1 d-flex flex-column justify-content-center align-items-xl-start align-items-center gap-4 p-5">
+          <h6 class=" mt-5">USA 001</h6>
+          <h2 class=" fw-bold">California, USA</h2>
+          <h3 class=" text-xl-start text-center">In California, Solarion collaborated with a real estate giant to
+            integrate cutting-edge solar
+            <br class="d-flex d-none"> technology. This project brought sustainable power to residential communities,
+            reducing <br class="d-flex d-none"> emissions
+            and costs while enhancing energy efficiency.
+          </h3>
+
+          <div class="w-100 ">
+
+            <div style="border-top: 1px solid rgba(0, 0, 0, 0.185); border-bottom: 1px solid rgba(0, 0, 0, 0.185);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="pt-2">CAPACITY</p>
+              <h4 class="">2 MW</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.183);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0  pb-2">INDUSTRY</p>
+              <h4 class=" pb-2 mb-0">Real Estate</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.187);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0 pb-2">ENERGY</p>
+              <h4 class=" pb-2 mb-0"> Solar Panels</h4>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- box 2 -->
+    <div class="row Green-Energy-box-1 g-3">
+      <div class="position-relative">
+
+        <!-- box image part -->
+        <div class="col-xl-8 Green-Energy-image">
+          <img class="img-fluid Green-Energy-image-1" src="images/Green-Energy-2.jpg" alt="">
+        </div>
+
+        <!-- box text part -->
+        <div
+          class="col-xl-6  Green-Energy-text-2 z-1 d-flex flex-column justify-content-center align-items-xl-start align-items-center gap-4 p-5">
+          <h6 class=" mt-5">GER 002</h6>
+          <h2 class=" fw-bold">Berlin, Germany</h2>
+          <h3 class=" text-xl-start text-center">In Berlin, Solarion partnered with a leading manufacturer to power
+            their production lines <br class="d-xl-flex d-none"> using renewable solar energy. The result was a
+            reduction in operational costs and a <br class="d-xl-flex d-none"> significant boost in energy independence.
+          </h3>
+
+          <div class="w-100 ">
+
+            <div style="border-top: 1px solid rgba(0, 0, 0, 0.185); border-bottom: 1px solid rgba(0, 0, 0, 0.185);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="pt-2">CAPACITY</p>
+              <h4 class="">20 MW</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.183);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0  pb-2">INDUSTRY</p>
+              <h4 class=" pb-2 mb-0">
+                Manufacturing</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.187);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0 pb-2">ENERGY</p>
+              <h4 class=" pb-2 mb-0">
+                Solar Grid</h4>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- box 3 -->
+    <div class="row Green-Energy-box-1 g-3">
+      <div class="position-relative">
+
+        <!-- box image part -->
+        <div class="col-xl-8 Green-Energy-image">
+          <img class="img-fluid Green-Energy-image-1" src="images/Green-Energy-3.jpg" alt="">
+        </div>
+
+        <!-- box text part -->
+        <div
+          class="col-xl-6  Green-Energy-text-2 z-1 d-flex flex-column justify-content-center align-items-xl-start align-items-center gap-4 p-5">
+          <h6 class=" mt-5">AUS 003</h6>
+          <h2 class=" fw-bold">Sydney, Australia</h2>
+          <h3 class=" text-xl-start text-center">In Sydney, Solarion equipped a modern apartment complex with a
+            self-sustaining solar <br class="d-xl-flex d-none"> energy system. This innovative solution improved living
+            standards while significantly <br class="d-xl-flex d-none"> cutting energy costs for residents.</h3>
+
+
+          <div class="w-100 ">
+
+            <div style="border-top: 1px solid rgba(0, 0, 0, 0.185); border-bottom: 1px solid rgba(0, 0, 0, 0.185);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-xl-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="pt-2">CAPACITY</p>
+              <h4 class="">1 MW</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.183);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0  pb-2">INDUSTRY</p>
+              <h4 class=" pb-2 mb-0">
+                Apartment</h4>
+            </div>
+
+            <div style=" border-bottom: 1px solid rgba(0, 0, 0, 0.187);"
+              class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center gap-4 mb-3 Green-Energy-right-bottom">
+              <p class="mb-0 pb-2">ENERGY</p>
+              <h4 class=" pb-2 mb-0">
+                Solar Rooftops</h4>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- new section  Customers -->
+  <div class="container-fluid  Customers px-5 py-5 mt-5">
+    <div class="row">
+      <!--  Customers left -->
+      <div
+        class="col-xl-6  Customers-left d-flex flex-column justify-content-center align-items-center  ps-xl-5 mb-xl-0 mb-5">
+        <h5 class="  text-xl-start text-center w-100  mt-xl-0"><i style="color: #3C8B70"
+            class="ri-flashlight-fill"></i>SUCCESS STORIES</h5>
+        <h2 class="w-100  d-flex justify-content-xl-start justify-content-center align-items-center">Hear from Our
+          Customers</h2>
+        <p class="w-100 d-flex justify-content-xl-start justify-content-center align-items-center">Here’s what
+          homeowners, businesses, and community leaders are saying <br class="d-xl-flex d-none"> about us.</p>
+
+        <div class="row ">
+          <div class="col-12 Emily-Rodriguez d-flex flex-column py-3 px-5 gap-3">
+            <div class="w-100 mt-0 d-flex justify-content-start align-items-center">
+              <img src="images/Emily-Rodriguez-1.png" alt="">
+            </div>
+            <h3>"Switching to Solarion was the best decision <br class="d-xl-flex d-none"> we made for our energy needs.
+              The <br class="d-xl-flex d-none"> seamless integration of renewable solutions <br
+                class="d-xl-flex d-none"> truly transformed our business. Highly <br class="d-xl-flex d-none">
+              recommended for anyone aiming for <br class="d-xl-flex d-none"> sustainability!"</h3>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-end">
+              <h4 class="text-start">Emily Rodriguez</h4>
+              <p class="text-start">Sustainability Consultant</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--  Customers right -->
+      <div class="col-xl-5 Customers-right border d-flex justify-content-start align-items-end mx-xl-5 p-0">
+        <a class="m-0" href="#">See All Testimonials</a>
+        <span>
+          <i class="ri-play-circle-line"></i>
+        </span>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div style="display: none;" class="container-fluid Customers-right-video  p-5 z-1  align-items-center justify-content-center">
+    <!-- close icon -->
+    <div class="Customers-right-video-1 d-flex align-items-center justify-content-center w-100 p-4">
+      <i class="ri-close-large-fill text-white pe-3"></i>
+      <iframe width="80%" style="height: 70vh;" src="https://www.youtube.com/embed/MLpWrANjFbI?si=4Tuy18po-aQO1lOh"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- new section Let's-Work  -->
+   <div class="container-fluid  mb-5">
+    <div class="row">
+      <div class="col-10 Lets-Work d-flex justify-content-center align-items-center flex-column p-5 mx-auto">
+        <h2 class="fw-bold">Let's Work Together</h2>
+        <p class="text-center">We have established ourselves as a trusted partner for leading solar energy <br class="d-xl-flex d-none"> providers, green renewable energy companies, major utilities, retailers, and other <br class="d-xl-flex d-none"> sustainable energy stakeholders.</p>
+        <a href="#" class="mb-xl-0 ">Get Started</a>
+      </div>
+    </div>
+   </div>
+
+
+   <!-- footer -->
+    <div class="container-fluid footer px-5">
+      <div class="row">
+        <!-- footer logo -->
+        <div class="w-100  d-flex justify-content-start align-items-start">
+          <div class="footer-logo p-5 ms-xl-5 ms-0">
+            <img src="images/footer-logo.png" alt="">
+          </div>
+        </div>
+
+        <!-- footer second line -->
+         <div class="col-xl-6 footer-sec-left p-3 px-5  mt-5 d-flex justify-content-xl-start justify-content-center align-items-center">
+          <h2 class="text-xl-start text-center">We are helping the <br> world to save energy</h2>
+         </div>
+         <div class="col-xl-6 footer-sec-right mt-5 d-flex justify-content-center align-items-center">
+            <a href="#">Get In Touch</a>
+         </div>
+
+         <!-- footer third line -->
+          <div class="col-xl-6 footer-third-line-left mt-5  d-flex flex-wrap justify-content-evenly align-items-center gap-md-0 gap-4 mb-5">
+ 
+                <span><a href="#">About Us</a></span>
+                <span><a href="#">Services</a></span>
+                <span><a href="#">case Studies</a></span>
+                <span><a href="#">careers</a></span>
+                <span><a href="#">Client</a></span>
+                <span><a href="#">Blog</a></span>
+
+          </div>
+
+
+          <div class="col-xl-6 footer-third-line-right mt-5  text-white d-flex flex-wrap justify-content-evenly gap-md-0 gap-3 align-items-center mb-5">
+
+              <span><a href="#"><i class="ri-facebook-fill"></i></a></span>
+              <span><a href="#"><i class="ri-twitter-x-fill"></i></a></span>
+              <span><a href="#"><i class="ri-instagram-fill"></i></a></span>
+              <span><a href="#"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="#"><i class="ri-youtube-fill"></i></a></span>
+
+          </div>
+
+
+          <!-- footer four line -->
+           <div class="col-xl-6 footer-four-line-left mt-5 d-flex justify-content-center align-items-center px-5">
+            <p class="text-white pt-5 text-xl-start text-center ">© Solarion. All Rights Reserved 2024. Licensing Envato Template Kit by Evocave Studio</p>
+           </div>
+           <div class="col-xl-6 footer-four-line-right mt-5 d-flex justify-content-end align-items-center px-5">
+            <p class="text-white pe-5 pt-5 text-xl-start text-center ps-xl-0 ps-5">Green Renewable Energy – Elementor Template Kit</p>
+           </div>
+
+
+      </div>
+    </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
